@@ -11,16 +11,13 @@ from matplotlib.colors import ListedColormap
 cmap_light = ListedColormap(['#FFAAAA', '#AAFFAA', '#AAAAFF'])
 cmap_bold = ListedColormap(['#FF0000', '#00FF00', '#0000FF'])
 
-def plot_iris_classification(classifier=None, **kwargs):
-    if classifier is None:
-        classifier = neighbors.KNeighborsClassifier
-
+def plot_iris_knn():
     iris = datasets.load_iris()
     X = iris.data[:, :2]  # we only take the first two features. We could
                         # avoid this ugly slicing by using a two-dim dataset
     y = iris.target
 
-    knn = classifier(**kwargs)
+    knn = neighbors.KNeighborsClassifier(n_neighbors=3)
     knn.fit(X, y)
 
     x_min, x_max = X[:, 0].min() - .1, X[:, 0].max() + .1
