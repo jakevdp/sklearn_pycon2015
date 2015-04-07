@@ -44,15 +44,13 @@ repository is a much better option.
 
 
 ## Notebook Listing
-These notebooks in this repository can be statically viewed using the
-excellent [nbviewer](http://nbviewer.ipython.org) site.  They will not
-be able to be modified within nbviewer.  To modify them, first download
-the tutorial repository, change to the notebooks directory, and type
-``ipython notebook``.  You should see the list in the ipython notebook
-launch page in your web browser.
+You can [view the tutorial materials](http://nbviewer.ipython.org/github/jakevdp/sklearn_pycon2015/blob/master/notebooks/Index.ipynb) using the excellent nbviewer service.
 
-To view the tutorial in nbviewer, follow [this link](http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/sklearn_pycon2015/master/notebooks/Index.ipynb)
+Note, however, that you cannot modify or run the contents within nbviewer.
+To modify them, first download the tutorial repository, change to the notebooks directory, and run ``ipython notebook``.
+You should see the list in the ipython notebook launch page in your web browser.
+For more information on the IPython notebook, see http://ipython.org/notebook.html
 
-Note that some of the code in these notebooks will not work outside the
+Note also that some of the code in these notebooks will not work outside the
 directory structure of this tutorial, so it is important to clone the full
 repository if possible.
