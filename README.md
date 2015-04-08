@@ -21,7 +21,7 @@ This tutorial requires the following packages:
 - `seaborn` version 0.5 or later
 
 The easiest way to get these is to use the [conda](https://store.continuum.io/) environment manager.
-I suggest downloading and installing [miniconda](conda.pydata.org/miniconda.html).
+I suggest downloading and installing [miniconda](http://conda.pydata.org/miniconda.html).
 
 Once this is installed, the following command will install all required packages in your Python environment:
 ```
