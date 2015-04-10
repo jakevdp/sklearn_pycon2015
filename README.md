@@ -9,6 +9,9 @@
 This repository will contain files and other info associated with my PyCon
 2015 scikit-learn tutorial.
 
+# Video
+The tutorial presentation was video-taped; the video is available [here](https://www.youtube.com/watch?v=L7R4HUQ-eQ0).
+
 ## Installation Notes
 This tutorial requires the following packages:
 
