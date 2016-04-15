@@ -1,5 +1,7 @@
 # PyCon 2015 Scikit-learn Tutorial
 
+**Note: for updated tutorial content, see http://github.com/jakevdp/sklearn_tutorial**
+
 *Instructor: Jake VanderPlas*
 
 - email: <jakevdp@uw.edu>
